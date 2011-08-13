@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETMVC-Portal.Web", "ASPNETMVC-Portal.Web\ASPNETMVC-Portal.Web.csproj", "{DA1CE0FC-581F-4BBC-A14A-5D278ABA1B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETMVC-Portal.Core", "ASPNETMVC-Portal.Core\ASPNETMVC-Portal.Core.csproj", "{48AEB817-4312-46B3-AA91-C2A9BE03AC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETMVC-Portal.Infrastructure", "ASPNETMVC-Portal.Infrastructure\ASPNETMVC-Portal.Infrastructure.csproj", "{80074FB4-13BC-4602-A2F6-F81AED03D645}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1CE0FC-581F-4BBC-A14A-5D278ABA1B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1CE0FC-581F-4BBC-A14A-5D278ABA1B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1CE0FC-581F-4BBC-A14A-5D278ABA1B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1CE0FC-581F-4BBC-A14A-5D278ABA1B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48AEB817-4312-46B3-AA91-C2A9BE03AC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AEB817-4312-46B3-AA91-C2A9BE03AC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AEB817-4312-46B3-AA91-C2A9BE03AC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AEB817-4312-46B3-AA91-C2A9BE03AC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80074FB4-13BC-4602-A2F6-F81AED03D645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80074FB4-13BC-4602-A2F6-F81AED03D645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80074FB4-13BC-4602-A2F6-F81AED03D645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80074FB4-13BC-4602-A2F6-F81AED03D645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
