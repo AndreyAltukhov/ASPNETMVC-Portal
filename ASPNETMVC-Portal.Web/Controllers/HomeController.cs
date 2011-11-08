@@ -13,7 +13,7 @@ namespace ASPNETMVC_Portal.Web.Controllers
 
         public ActionResult Index()
         {
-            // return View();
+            return View();
         }
 
     }
